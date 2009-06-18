@@ -5,7 +5,7 @@ include $(CLEAR_VARS)
 LIRC_MAJORMINOR:= cvs
 
 LOCAL_SRC_FILES:= \
-    liblirc_client.c
+    lirc_client.c
 
 LOCAL_CFLAGS = -DHAVE_CONFIG_H
 
