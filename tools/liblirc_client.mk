@@ -10,7 +10,8 @@ LOCAL_SRC_FILES:= \
 LOCAL_CFLAGS = -DHAVE_CONFIG_H
 
 LOCAL_C_INCLUDES := \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    external/lirc
      
 LOCAL_MODULE:= liblirc_client-$(LIRC_MAJORMINOR)
 

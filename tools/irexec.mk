@@ -11,7 +11,8 @@ LOCAL_SHARED_LIBRARIES:= \
     liblirc_client-cvs
 
 LOCAL_C_INCLUDES := \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    external/lirc
 
 LOCAL_MODULE:= irexec
 
